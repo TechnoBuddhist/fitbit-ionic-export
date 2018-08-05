@@ -1,0 +1,27 @@
+#accel-label {
+  font-family: System-Regular;
+  font-size: 25;
+  x: 50%;
+  y: 40%;
+  width: 100%;
+  text-length: 32;
+  text-anchor: middle;
+}
+#hrm-label {
+  font-family: System-Regular;
+  font-size: 25;
+  x: 50%;
+  y: 55%;
+  width: 100%;
+  text-length: 32;
+  text-anchor: middle;
+}
+#gyro-label {
+  font-family: System-Regular;
+  font-size: 25;
+  x: 50%;
+  y: 70%;
+  width: 100%;
+  text-length: 32;
+  text-anchor: middle;
+}

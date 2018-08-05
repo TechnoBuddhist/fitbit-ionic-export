@@ -1,0 +1,28 @@
+<svg>
+  <svg id="scn-home">
+    <use id="btn-settings" href="#square-button" y="0%" fill="fb-red">
+      <set href="#text"  attributeName="text-buffer" to="Settings" />
+      <!-- <set href="#image" attributeName="href"        to="icon.png" /> -->
+      <!-- <set href="#image" attributeName="display"     to="inline" /> -->
+    </use>
+    <text id="accel-label" fill="white" >--</text>
+    <text id="hrm-label" fill="white">--</text>
+    <text id="gyro-label" fill="white">--</text>
+    <use id="btn-rec" href="#square-button-icon" x="0%" y="75%" fill="fb-blue">
+      <set href="#text" attributeName="text-buffer" to="   Record   " />
+      <set href="#text" attributeName="font-size" to="40" />
+      <set href="#text" attributeName="text-anchor" to="middle" />
+      <!-- <set href="#image" attributeName="href" to="test.png" /> -->
+    </use>
+  </svg>
+  
+  <!-- ========================================================
+                    SETTINGS SCREEN
+       ======================================================== -->
+  <svg id="scn-settings" display="none">
+    <use href="#mixed-text-center-top" height="20%" fill="fb-blue">
+      <set href="#header/text" attributeName="text-buffer" to="Settings"/>
+    </use>
+  </svg>
+
+</svg>

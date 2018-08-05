@@ -1,0 +1,19 @@
+{
+  "fitbit": {
+    "appUUID": "1c095990-4009-44ae-9ad0-9bb174926836",
+    "appType": "app",
+    "appDisplayName": "RawDataLogger",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#3f51b5",
+    "requestedPermissions": [
+      "access_heart_rate",
+      "access_user_profile",
+      "run_background"
+    ],
+    "i18n": {
+      "en": {
+        "name": "RawDataLogger"
+      }
+    }
+  }
+}
